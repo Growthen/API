@@ -1,6 +1,6 @@
-package dev.growthen.apilibreria.config.jwt;
+package dev.growthen.api.config.jwt;
 
-import dev.growthen.apilibreria.user.entity.User;
+import dev.growthen.api.user.entity.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;

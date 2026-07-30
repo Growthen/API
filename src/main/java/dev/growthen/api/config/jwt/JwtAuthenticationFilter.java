@@ -1,7 +1,7 @@
-package dev.growthen.apilibreria.config.jwt;
+package dev.growthen.api.config.jwt;
 
-import dev.growthen.apilibreria.common.constants.SecurityConstants;
-import dev.growthen.apilibreria.config.custom.CustomUserDetailsService;
+import dev.growthen.api.common.constants.SecurityConstants;
+import dev.growthen.api.config.custom.CustomUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
