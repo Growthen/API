@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.common.constants;
+package dev.growthen.api.common.constants;
 
 public class SecurityConstants {
 

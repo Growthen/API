@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.common.constants;
+package dev.growthen.api.common.constants;
 
 /**
  * Mensajes de error estándar para las respuestas de la API.

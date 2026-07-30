@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.common.entity;
+package dev.growthen.api.common.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
