@@ -1,7 +1,7 @@
-package dev.growthen.apilibreria.user.entity;
+package dev.growthen.api.user.entity;
 
-import dev.growthen.apilibreria.common.entity.BaseEntity;
-import dev.growthen.apilibreria.user.enums.Role;
+import dev.growthen.api.common.entity.BaseEntity;
+import dev.growthen.api.user.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;

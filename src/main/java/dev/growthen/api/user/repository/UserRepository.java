@@ -1,6 +1,6 @@
-package dev.growthen.apilibreria.user.repository;
+package dev.growthen.api.user.repository;
 
-import dev.growthen.apilibreria.user.entity.User;
+import dev.growthen.api.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
