@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.common.exception;
+package dev.growthen.api.common.exception;
 
 public class UnauthorizedException extends RuntimeException {
     public UnauthorizedException(String message) {

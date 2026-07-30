@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.common.exception;
+package dev.growthen.api.common.exception;
 
 public class BadRequestException extends RuntimeException{
     public BadRequestException(String message) {

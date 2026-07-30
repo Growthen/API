@@ -1,6 +1,6 @@
-package dev.growthen.apilibreria.common.exception;
+package dev.growthen.api.common.exception;
 
-import dev.growthen.apilibreria.common.response.ErrorResponse;
+import dev.growthen.api.common.response.ErrorResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
