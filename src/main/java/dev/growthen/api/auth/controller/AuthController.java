@@ -1,11 +1,11 @@
-package dev.growthen.apilibreria.auth.controller;
+package dev.growthen.api.auth.controller;
 
-import dev.growthen.apilibreria.auth.dto.request.LoginRequest;
-import dev.growthen.apilibreria.auth.dto.request.RefreshTokenRequest;
-import dev.growthen.apilibreria.auth.dto.request.RegisterRequest;
-import dev.growthen.apilibreria.auth.dto.response.AuthResponse;
-import dev.growthen.apilibreria.auth.service.AuthService;
-import dev.growthen.apilibreria.common.response.ApiResponse;
+import dev.growthen.api.auth.dto.request.LoginRequest;
+import dev.growthen.api.auth.dto.request.RefreshTokenRequest;
+import dev.growthen.api.auth.dto.request.RegisterRequest;
+import dev.growthen.api.auth.dto.response.AuthResponse;
+import dev.growthen.api.auth.service.AuthService;
+import dev.growthen.api.common.response.ApiResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
