@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.config.jpa;
+package dev.growthen.api.config.jpa;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
