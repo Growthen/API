@@ -1,6 +1,6 @@
 # Base API REST con Seguridad Incorporada
 
-> **Nota:** Esta es una API básica reutilizable para tener una base de API con seguridad incorporada.
+> **Boilerplate de API Reusable:** Proyecto base equipado con arquitectura y módulos de seguridad listos para usar, pensado para bootstrapear nuevos servicios sin duplicar código ni rehacer la seguridad en cada proyecto.
 
 Plantilla base para desarrollo de servicios web RESTful en Java utilizando **Spring Boot**, **Spring Security**, **JWT (JSON Web Tokens)** con tokens de acceso y de refresco (Refresh Tokens), **Spring Data JPA**, y documentación con **OpenAPI / Swagger**.
 
