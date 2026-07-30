@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.auth.dto.response;
+package dev.growthen.api.auth.dto.response;
 
 public record AuthResponse(
         String accessToken,

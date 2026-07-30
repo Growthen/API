@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.auth.dto.request;
+package dev.growthen.api.auth.dto.request;
 
 
 import jakarta.validation.constraints.NotBlank;
