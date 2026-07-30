@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.common.controller;
+package dev.growthen.api.common.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
