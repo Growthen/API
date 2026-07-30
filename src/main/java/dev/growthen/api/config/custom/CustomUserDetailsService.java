@@ -1,8 +1,8 @@
-package dev.growthen.apilibreria.config.custom;
+package dev.growthen.api.config.custom;
 
-import dev.growthen.apilibreria.common.constants.ErrorMessages;
-import dev.growthen.apilibreria.user.entity.User;
-import dev.growthen.apilibreria.user.repository.UserRepository;
+import dev.growthen.api.common.constants.ErrorMessages;
+import dev.growthen.api.user.entity.User;
+import dev.growthen.api.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
