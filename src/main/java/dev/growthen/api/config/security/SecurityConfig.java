@@ -1,8 +1,8 @@
-package dev.growthen.apilibreria.config.security;
+package dev.growthen.api.config.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.growthen.apilibreria.common.response.ErrorResponse;
-import dev.growthen.apilibreria.config.jwt.JwtAuthenticationFilter;
+import dev.growthen.api.common.response.ErrorResponse;
+import dev.growthen.api.config.jwt.JwtAuthenticationFilter;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
