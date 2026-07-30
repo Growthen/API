@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=PostgreSQL
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+app:
+  jwt:
+    secret: B&#-oFF{,7yVHV)_wp[Y{:VXYd81MJbA5<BP(oHY8$%ci)=C2}lcB%xN%3c#T::z2{V+uCJ#gj4!DtAe1rPe%l
+    refresh-secret: .Jv9e2t_lC=5=B]i[[mjE[_XKifEzSWc2wZci+U*lrEJwA^g$a2LJQz)g&wOw6.DLk(SLqs|UI1jJRbZxS1X>u
+    expiration-time: 1200000
+    refresh-expiration: 6048000000
+
+  cors:
+    allowed-origins: http://localhost:4200
+    allowed-methods: GET,POST,PUT,PATCH,DELETE,OPTIONS
+    allowed-headers: "*"
+    exposed-headers: Authorization
+    allow-credentials: true
+    max-age: 3600
