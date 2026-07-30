@@ -1,6 +1,6 @@
-package dev.growthen.apilibreria.user.dto.response;
+package dev.growthen.api.user.dto.response;
 
-import dev.growthen.apilibreria.user.enums.Role;
+import dev.growthen.api.user.enums.Role;
 import lombok.*;
 
 import java.time.LocalDateTime;

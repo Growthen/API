@@ -1,7 +1,7 @@
-package dev.growthen.apilibreria.user.mapper;
+package dev.growthen.api.user.mapper;
 
-import dev.growthen.apilibreria.user.dto.response.UserResponse;
-import dev.growthen.apilibreria.user.entity.User;
+import dev.growthen.api.user.dto.response.UserResponse;
+import dev.growthen.api.user.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
