@@ -1,7 +1,7 @@
-package dev.growthen.apilibreria.auth.entity;
+package dev.growthen.api.auth.entity;
 
-import dev.growthen.apilibreria.common.entity.BaseEntity;
-import dev.growthen.apilibreria.user.entity.User;
+import dev.growthen.api.common.entity.BaseEntity;
+import dev.growthen.api.user.entity.User;
 import jakarta.persistence.*;
 import lombok.*;
 

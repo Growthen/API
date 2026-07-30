@@ -1,6 +1,6 @@
-package dev.growthen.apilibreria.auth.repository;
+package dev.growthen.api.auth.repository;
 
-import dev.growthen.apilibreria.auth.entity.RefreshToken;
+import dev.growthen.api.auth.entity.RefreshToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
