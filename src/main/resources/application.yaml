@@ -1,6 +1,6 @@
 spring:
   application:
-    name: api-libreria
+    name: api
   config:
     import: optional:file:.env[.properties]
   datasource:
