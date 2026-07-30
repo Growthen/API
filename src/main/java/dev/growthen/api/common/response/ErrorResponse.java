@@ -1,4 +1,4 @@
-package dev.growthen.apilibreria.common.response;
+package dev.growthen.api.common.response;
 
 import java.time.LocalDateTime;
 
